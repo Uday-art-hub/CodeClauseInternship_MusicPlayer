@@ -38,7 +38,6 @@ class MusicPlayer:
         self.volume_scale.set(50)
         self.volume_scale.pack()
 
-        # Configure event bindings
         self.listbox.bind("<Double-Button-1>", self.play_selected_track)
 
     def play_music(self):
